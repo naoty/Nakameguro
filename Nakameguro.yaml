@@ -1,5 +1,32 @@
 log-view:
-  nickname-format: '%n'
+  nickname-format: '%n '
+
+common: &common
+  background-color: '#1c1c1c'
+  color: '#bdc0ba'
+  font-family: 'Monaco'
+  font-size: 13.0
+
 input-text:
+  <<: *common
+
 member-list:
+  <<: *common
+
 server-tree:
+  <<: *common
+  normal:
+    active:
+      color: '#bdc0ba'
+    inactive:
+      color: '#bdc0ba'
+  selected:
+    active:
+      color: '#bdc0ba'
+    inactive:
+      color: '#bdc0ba'
+    background:
+      top-line-color: '#1c1c1c'
+      bottom-line-color: '#1c1c1c'
+      top-color: '#1c1c1c'
+      bottom-color: '#1c1c1c'

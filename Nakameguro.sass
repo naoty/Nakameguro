@@ -1,4 +1,24 @@
+$base-color: #1c1c1c
+$text-color: #BDC0BA
+
 html
-  font:
-    family: 'Monaco', monospace
-    size: 9pt
+  background-color: $base-color
+  color: $text-color
+  font-family: 'Monaco', monospace
+  font-size: 9pt
+
+body
+  margin: 0
+  padding: 0
+
+.line
+  .time,
+  .place,
+  .sender,
+  .url
+    color: $text-color
+
+.message
+  &[type=system],
+  &[type=reply]
+    color: $text-color
