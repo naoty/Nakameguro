@@ -8,4 +8,4 @@ $ ln -s /path/to/Nakameguro/Nakameguro.yaml
 
 ## Screenshot
 
-![screenshot](./screenshot.png)
+![screenshot](https://raw.github.com/naoty/Nakameguro/master/screenshot.png)
