@@ -5,6 +5,7 @@ $myname-color: #f7d94c
 $name-color: #86c166
 $highlight-color: #f596aa
 $link-color: #58B2dc
+$message-color: #828282
 
 html
   background-color: $base-color
@@ -32,6 +33,27 @@ body
     color: $link-color
 
 .message
-  &[type=system],
-  &[type=reply]
+  &[type=privmsg],
+  &[type=notice],
+  &[type=action]
     color: $text-color
+
+  &[type=system],
+  &[type=error],
+  &[type=reply],
+  &[type=error_reply],
+  &[type=dcc_send_send],
+  &[type=dcc_send_receive],
+  &[type=join],
+  &[type=part],
+  &[type=kick],
+  &[type=quit],
+  &[type=kill],
+  &[type=nick],
+  &[type=mode],
+  &[type=topic],
+  &[type=invite],
+  &[type=wallops],
+  &[type=debug_send],
+  &[type=debug_receive]
+    color: $message-color
