@@ -1,6 +1,6 @@
 html {
   background-color: #1c1c1c;
-  color: #bdc0ba;
+  color: #fcfaf2;
   font-family: "Monaco", monospace;
   font-size: 9pt; }
 
@@ -12,7 +12,7 @@ body {
 .line .place,
 .line .sender,
 .line .url {
-  color: #bdc0ba; }
+  color: #fcfaf2; }
 
 .message[type=system], .message[type=reply] {
-  color: #bdc0ba; }
+  color: #fcfaf2; }

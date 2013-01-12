@@ -3,7 +3,7 @@ log-view:
 
 common: &common
   background-color: '#1c1c1c'
-  color: '#bdc0ba'
+  color: '#fcfaf2'
   font-family: 'Monaco'
   font-size: 13.0
 
@@ -17,14 +17,14 @@ server-tree:
   <<: *common
   normal:
     active:
-      color: '#bdc0ba'
+      color: '#fcfaf2'
     inactive:
-      color: '#bdc0ba'
+      color: '#fcfaf2'
   selected:
     active:
-      color: '#bdc0ba'
+      color: '#fcfaf2'
     inactive:
-      color: '#bdc0ba'
+      color: '#fcfaf2'
     background:
       top-line-color: '#1c1c1c'
       bottom-line-color: '#1c1c1c'
