@@ -1,5 +1,10 @@
 $base-color: #1c1c1c
 $text-color: #fcfaf2
+$time-color: #828282
+$myname-color: #f7d94c
+$name-color: #86c166
+$highlight-color: #f596aa
+$link-color: #58B2dc
 
 html
   background-color: $base-color
@@ -12,11 +17,19 @@ body
   padding: 0
 
 .line
-  .time,
-  .place,
-  .sender,
+  .time
+    color: $time-color
+  .sender
+    color: $name-color
+    &[type=myself]
+      color: $myname-color
+  .place
+    color: $name-color
+  .highlight
+    color: $highlight-color
+    font-weight: normal
   .url
-    color: $text-color
+    color: $link-color
 
 .message
   &[type=system],

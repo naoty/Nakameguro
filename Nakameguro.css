@@ -8,11 +8,19 @@ body {
   margin: 0;
   padding: 0; }
 
-.line .time,
-.line .place,
-.line .sender,
+.line .time {
+  color: #828282; }
+.line .sender {
+  color: #86c166; }
+  .line .sender[type=myself] {
+    color: #f7d94c; }
+.line .place {
+  color: #86c166; }
+.line .highlight {
+  color: #f596aa;
+  font-weight: normal; }
 .line .url {
-  color: #fcfaf2; }
+  color: #58b2dc; }
 
 .message[type=system], .message[type=reply] {
   color: #fcfaf2; }

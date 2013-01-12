@@ -12,6 +12,13 @@ input-text:
 
 member-list:
   <<: *common
+  selected:
+    color: '#f7d94c'
+    background:
+      top-line-color: '#1c1c1c'
+      bottom-line-color: '#1c1c1c'
+      top-color: '#1c1c1c'
+      bottom-color: '#1c1c1c'
 
 server-tree:
   <<: *common
@@ -22,7 +29,7 @@ server-tree:
       color: '#fcfaf2'
   selected:
     active:
-      color: '#fcfaf2'
+      color: '#f7d94c'
     inactive:
       color: '#fcfaf2'
     background:
